@@ -1,0 +1,242 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    }
+    img {
+    width: 100%;
+    height: auto;
+    }
+
+video{
+    width: 1200px;
+    height: 400px;
+}
+p{
+    font-size: 24px;
+}
+.fondoimagen{
+    filter: brightness(90%);
+}
+
+.logo{
+    position: absolute;
+    top: 4px;
+    left: 140px;
+    width: 200px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    color: rgb(244, 236, 236);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.texto1{
+    -webkit-text-stroke: 6px;
+    font-family: NotulenSerifDisplay-ExtraBold;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.texto2{
+    -webkit-text-stroke: 6px;
+    font-family: NotulenSerifDisplay-ExtraBold;
+    text-align: left;
+    font-size: 100px;
+    color: white;
+    position: absolute;
+    top: 53%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.texto3{
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.button1{
+    font-size: 10px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    top: 82%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+
+   }
+   
+   button:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+   }
+   
+   button:active {
+    transform: translate(0em, 0.2em);
+}
+
+.button2{
+    font-size: 10px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 2px;
+    
+}
+
+.texto4{
+    font-size: 50px;
+    color: #001A53;
+    text-align: center;
+}
+
+.texto5{
+    -webkit-text-stroke: 2px;
+    font-size: 50px;
+    color: #001A53;
+    text-align: center;
+}
+
+.texto6{
+    text-align: center;
+    color: #001A53;
+}
+
+.video{
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+    width: 1200px;
+    height: 660px;
+}
+
+.textos2{
+    top: 1300px;
+    position: absolute;
+}
+.texto7{
+    font-size: 30px;
+    color: #001A53;
+    position: absolute;
+    width: 300px;
+    left: 50px;
+    text-align: left;
+}
+.texto8{
+    -webkit-text-stroke: 2px;
+    font-size: 40px;
+    color: #001A53;
+    position: absolute;
+    top: 30px;
+    width: 300px;
+    left: 50px;
+    text-align: left;    
+}
+.texto9{
+        font-size: 30px;
+        color: #001A53;
+        position: absolute;
+        top: 80px;
+        left: 50px;
+        width: 600px;
+}
+.texto11{
+        font-size: 30px;
+        color: #001A53;
+        position: absolute;
+        left: 50px;
+}
+.texto10{
+    -webkit-text-stroke: 2px;
+    font-size: 40px;
+    color: #001A53;
+    position: absolute;
+    top: 1754px;
+    left: 50px;
+}
+
+.cajaprincipal {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.contenedorcajas {
+    display: inline-block;
+    width: 400px; 
+    border: 1px solid #ccc;
+    margin: 10px auto; 
+    vertical-align: top;
+   
+}
+
+.titulocaja {
+    font-size: 18px;
+    margin: 10px 0 5px; 
+}
+
+.textocaja {
+    font-size: 14px;
+    margin: 0 10px 10px; 
+}
+
+.foto4{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 1820px;
+    left: 50px;
+}
+
+.contenedorprincipal {
+    display: flex;
+    justify-content: center; /* Alinea todo al final (derecha) */
+    padding: 20px;
+    position: absolute;
+    left: 400px;
+}
+
+.columna {
+    width: 200px;
+    margin-left: 100px; /* Espacio entre columnas */
+}
+
+.contenedorcaja {
+    width: 100%;
+    height: 100px;
+    
+    margin-bottom: 10px; /* Espacio entre cajas */
+}
+
+.textocaja2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.icon{
+    width: 30px;
+}
